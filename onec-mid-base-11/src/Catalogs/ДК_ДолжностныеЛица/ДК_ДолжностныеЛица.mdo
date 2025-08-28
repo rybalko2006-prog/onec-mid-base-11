@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e89f32b5-82c5-4f24-8048-f24cfb32d09b">
+  <producedTypes>
+    <objectType typeId="ef2ebc88-2e90-4971-902c-f77aa589f5db" valueTypeId="9df76584-86f8-42ed-8bf4-ba1b0be962a1"/>
+    <refType typeId="8a36053d-0a4d-4ded-8b73-ae888fc89555" valueTypeId="fbe1d91e-f3d3-42d4-8aaf-9cee69b8a3a4"/>
+    <selectionType typeId="482eed3d-fc5d-4cd6-8af5-366373858196" valueTypeId="e22dbfd6-5a3e-45ae-b384-b158fdc47431"/>
+    <listType typeId="60284353-02e3-4d0d-b861-4982f91f575d" valueTypeId="20d1a0c0-77a2-487e-a2c3-d548016e77a1"/>
+    <managerType typeId="8fdae1d5-66b2-4a98-a9b6-18edd5a3d81a" valueTypeId="5b4f71c3-ddfe-4b18-869e-27caaf10b200"/>
+  </producedTypes>
+  <name>ДК_ДолжностныеЛица</name>
+  <synonym>
+    <key>ru</key>
+    <value>Должностные лица</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ДК_ДолжностныеЛица.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.ДК_ДолжностныеЛица.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Должностное лицо</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Должностные лица</value>
+  </listPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>
