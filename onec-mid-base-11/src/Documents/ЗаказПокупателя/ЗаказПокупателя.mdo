@@ -185,6 +185,7 @@
       <types>String</types>
       <stringQualifiers/>
     </type>
+    <multiLine>true</multiLine>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillValue xsi:type="core:StringValue">
@@ -194,7 +195,7 @@
     <dataHistory>Use</dataHistory>
   </attributes>
   <attributes uuid="a9abbbf1-cc66-4d53-aa43-98e51f54de21">
-    <name>КонтактноеЛицо</name>
+    <name>ДК_КонтактноеЛицо</name>
     <synonym>
       <key>ru</key>
       <value>Контактное лицо</value>
@@ -212,6 +213,26 @@
     <linkByType>
       <field>Document.ЗаказПокупателя.Attribute.Контрагент</field>
     </linkByType>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="ce0e3632-6797-4083-8de0-3ecc61a40da6">
+    <name>ДК_СогласованнаяСкидки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Согласованная скидки</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>5</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
