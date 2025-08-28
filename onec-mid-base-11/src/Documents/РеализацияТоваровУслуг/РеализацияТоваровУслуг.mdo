@@ -200,11 +200,35 @@
       <types>String</types>
       <stringQualifiers/>
     </type>
+    <multiLine>true</multiLine>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillValue xsi:type="core:StringValue">
       <value></value>
     </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="cf2377a8-7b8d-43e8-b819-d2816e055b41">
+    <name>КонтактноеЛицо</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контактное лицо</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ДК_КонтактныеЛица</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <choiceParameterLinks>
+      <name>Отбор.ДействуетНаОсновании</name>
+      <field>Document.РеализацияТоваровУслуг.Attribute.Контрагент</field>
+    </choiceParameterLinks>
+    <linkByType>
+      <field>Document.РеализацияТоваровУслуг.Attribute.Контрагент</field>
+    </linkByType>
+    <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
